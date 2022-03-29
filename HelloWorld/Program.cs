@@ -12,6 +12,8 @@ namespace Hello_World
     {
         static void Main(string[] args)
         {
+            #region day1 数据类型/类型转换
+            /*
             //快速注释：ctrl + K +C 
             //取消注释： CTRL + K + U；
 
@@ -87,6 +89,13 @@ namespace Hello_World
             class1.sayHello(3, 4);
 
             //特殊转换
+            ToString方法
+            //在ToString()语句中跟随“0.0”形式会强制保留几位小数
+            //"0."形式，在整数位有数值是保留整数，当整数位为0时，无视整数位
+            float floatValue = 2.500000f;
+            floatValue.ToString("0.0");  返回 2.5
+            floatValue.ToString(".0");   返回 2.5 如果为0.5则返回.5
+
             //string 不能隐式转换为其他数据类型
             string stringValue1 = num1.ToString();
             string stringValue2 = num1 + "";
@@ -97,12 +106,24 @@ namespace Hello_World
 
             //在C#中 \\表示的是 '\' 来避免和转义字符冲突
             //在字符串前加 @ 符号，表示该段字符中的所有转义字符失效
-            Console.WriteLine(@"D:\a\s\d");
+            //Console.WriteLine(@"D:\a\s\d");
 
             //输入语句
             //Console.ReadLine();
 
-            Console.WriteLine(num4 + "hello world" + class1.sayHello(3, 10));
+            //Console.WriteLine(num4 + "hello world" + class1.sayHello(3, 10));
+            */
+            #endregion
+
+            #region day2
+            Program program = new Program();
+            program.fun1();
+            #endregion
+
+        }
+        public void fun1()
+        {
+            Console.WriteLine(1);
         }
     }
 }

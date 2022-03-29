@@ -16,8 +16,6 @@ namespace Day1Work
             {
                 #region login
 
-                //Console.WriteLine("请输入：1.登录；2.注册");
-                //string choose = Console.ReadLine();
                 string result = "";
                 string zh = "";
                 string ps = "";
