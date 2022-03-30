@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{1145E8BE-C60E-4988-8C6A-2AF470751E92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day1Node", "HelloWorld\Day1Node.csproj", "{1145E8BE-C60E-4988-8C6A-2AF470751E92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1Work", "Day1Work\Day1Work.csproj", "{04F37F84-B6E4-4F8F-AFB5-6538896117A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day1Work", "Day1Work\Day1Work.csproj", "{04F37F84-B6E4-4F8F-AFB5-6538896117A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Login(Function)", "Login(Function)\Login(Function).csproj", "{6F808442-F71F-45B6-9E76-26516EFDAC7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day2Node", "Day2Node\Day2Node.csproj", "{F259758D-A8F0-4BD0-9539-86231084CB11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maze", "maze\maze.csproj", "{296A6431-EEF8-45BC-B314-7FFDBE5E8D72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{04F37F84-B6E4-4F8F-AFB5-6538896117A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04F37F84-B6E4-4F8F-AFB5-6538896117A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04F37F84-B6E4-4F8F-AFB5-6538896117A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F808442-F71F-45B6-9E76-26516EFDAC7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F808442-F71F-45B6-9E76-26516EFDAC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F808442-F71F-45B6-9E76-26516EFDAC7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F808442-F71F-45B6-9E76-26516EFDAC7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F259758D-A8F0-4BD0-9539-86231084CB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F259758D-A8F0-4BD0-9539-86231084CB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F259758D-A8F0-4BD0-9539-86231084CB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F259758D-A8F0-4BD0-9539-86231084CB11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{296A6431-EEF8-45BC-B314-7FFDBE5E8D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{296A6431-EEF8-45BC-B314-7FFDBE5E8D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{296A6431-EEF8-45BC-B314-7FFDBE5E8D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{296A6431-EEF8-45BC-B314-7FFDBE5E8D72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
