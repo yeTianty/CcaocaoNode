@@ -11,7 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Login(Function)", "Login(Fu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day2Node", "Day2Node\Day2Node.csproj", "{F259758D-A8F0-4BD0-9539-86231084CB11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maze", "maze\maze.csproj", "{296A6431-EEF8-45BC-B314-7FFDBE5E8D72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "maze", "maze\maze.csproj", "{296A6431-EEF8-45BC-B314-7FFDBE5E8D72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day3Node", "Day3Node\Day3Node.csproj", "{DD403FFE-C481-4EE3-A2CC-BB1694B84564}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sokoban", "sokoban\sokoban.csproj", "{CF1BE4B0-47DC-41D6-830C-8F3A8FA30932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day4Node", "Day4Node\Day4Node.csproj", "{E40E3942-22FD-4F47-A81C-1F433FB719BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{296A6431-EEF8-45BC-B314-7FFDBE5E8D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{296A6431-EEF8-45BC-B314-7FFDBE5E8D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{296A6431-EEF8-45BC-B314-7FFDBE5E8D72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD403FFE-C481-4EE3-A2CC-BB1694B84564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD403FFE-C481-4EE3-A2CC-BB1694B84564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD403FFE-C481-4EE3-A2CC-BB1694B84564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD403FFE-C481-4EE3-A2CC-BB1694B84564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF1BE4B0-47DC-41D6-830C-8F3A8FA30932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1BE4B0-47DC-41D6-830C-8F3A8FA30932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1BE4B0-47DC-41D6-830C-8F3A8FA30932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1BE4B0-47DC-41D6-830C-8F3A8FA30932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E40E3942-22FD-4F47-A81C-1F433FB719BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E40E3942-22FD-4F47-A81C-1F433FB719BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E40E3942-22FD-4F47-A81C-1F433FB719BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E40E3942-22FD-4F47-A81C-1F433FB719BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
